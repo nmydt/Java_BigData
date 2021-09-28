@@ -15,13 +15,13 @@
       // name: '',
       // repo: ''
 
-      search: {
-          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-          // 避免搜索索引冲突
-          // 同一域下的多个网站之间
-          namespace: 'BigData2',
+    //   search: {
+    //       maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+    //       // 避免搜索索引冲突
+    //       // 同一域下的多个网站之间
+    //       namespace: 'BigData2',
 
-    },
+    // },
 
       maxLevel: 3,
       el: '#app',
@@ -61,6 +61,10 @@
     }
   </script>
   <!-- 添加bash高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js">
+    </script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js">
+    </script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <!-- 在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
@@ -71,6 +75,7 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>

@@ -8,9 +8,9 @@
 
 ## [Java](Java/)
 
-(Java/)
+[Java](Java/)
 
 ## [algo](algo/)
 
-(algo/)
+[algo](algo/)
 

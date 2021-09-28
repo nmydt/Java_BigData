@@ -1,8 +1,8 @@
-## [BigData](BigData-Notes-master/docs/README.md)
+## [BigData](BigData-Notes-master/)
 
-## [BigData2](BigData2/docs/README.md)
+## [BigData2](BigData2/)
 
-## [Java](Java/docs/README.md)
+## [Java](Java/)
 
-## [algo](algo/docs/README.md)
+## [algo](algo/)
 
